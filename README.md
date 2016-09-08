@@ -1,5 +1,8 @@
 # Chess
 
+
+<a href="https://lightcast.github.io/chess/"><b>TO PLAY THE GAME CLICK HERE</b></a>
+
  I made SimplyChess for a few reasons. <br /><br />
  1) I love chess and by making my own chess game in JS I would become a better player. <br />
  2) I wanted to demystify the complexity of chess. Don't get me wrong. Chess is very complicated
