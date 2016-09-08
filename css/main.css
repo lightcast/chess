@@ -1,0 +1,91 @@
+body {
+    background-color: #232323;
+}
+
+textarea {scrollbar-base-color:orange;}
+
+td.whiteSquare {
+    vertical-align: bottom;
+    text-align: right;
+    font-size:10px;
+    width:60px;
+    height:60px;
+    background-color:#ffffff;
+    border:1px solid #ffffff;
+}
+
+td.whiteSquare:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+
+.selected {
+    vertical-align: bottom;
+    text-align: right;
+    font-size:10px;
+    width:60px;
+    height:60px;
+    background-color:#ff0;
+    border:1px solid #ffffff;
+}
+
+
+td.blackSquare {
+    vertical-align: bottom;
+    text-align: right;
+    font-size:10px;
+    width:60px;
+    height:60px;
+    background-color:#00a6ac;
+    border:1px solid #ffffff;
+
+}
+
+td.blackSquare:hover {
+    background-color: yellow;
+    color: black;
+}
+
+h2 {
+    font-family: Times New Roman, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: Times New Roman, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+
+
+#notation table,#games table{
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+#notation td,#games td{
+    cursor:pointer;
+    border-bottom:1px solid #CCC;
+}
+
+
+#notation th,#games th{
+    text-align:left;
+    background-color:#ECE9D8;
+    padding:1px;
+    margin:0px;
+    border-right:1px solid #000;
+    border-bottom:1px solid #000;
+    border-left:1px solid #FFF;
+    border-top:1px solid #FFF;
+    font-weight:normal;
+}
+
+.clear{
+    clear:both;
+}
